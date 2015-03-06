@@ -1,0 +1,109 @@
+body {
+	background: url("/images/cubes.png");
+}
+
+.navbar-default .navbar-brand {
+	color: #1C9FFC;
+}
+
+#videos {
+	text-align: center;
+	position: relative;
+}
+
+#videos iframe {
+	margin-bottom: 15px;
+}
+
+#instafeed {
+	margin-bottom: 15px;
+	color: #555;
+	display: inline-block;
+	margin: 0.25rem;
+	padding: 1rem;
+	width: 100%;
+}
+
+#instafeed img {
+	margin: 0 auto;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+#instafeed p {
+	text-align: center;
+	background-color: #D7D7D7;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#twitter-widget-0 {
+	width: 100% !important;
+}
+
+#vine {
+	width: 100% !important;
+}
+
+#vine iframe {
+	text-align: center;
+}
+
+.gains {
+	padding: 10px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #C5F3EF;
+}
+
+.gains h1, .gains .h1 {
+	color: inherit;
+}
+
+.gains p {
+	margin-bottom: 15px;
+	font-size: 21px;
+	font-weight: 200;
+}
+
+.gains>hr {
+	border-top-color: #d5d5d5;
+}
+
+.container .gains {
+	border-radius: 6px;
+}
+
+.gains .container {
+	max-width: 100%;
+}
+
+.contact .username {
+	margin-left: 10px;
+	font-size: 1.05em;
+}
+
+.contact .glyphicon {
+	font-size: 1.0em;
+	padding-right: 10px;
+}
+
+.page-header .glyphicon {
+	font-size: 1.0em;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	/* .gains {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	} */
+	.container .gains {
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	.gains h1, .gains .h1 {
+		font-size: 63px;
+	}
+}
